@@ -1,7 +1,7 @@
-## Tomcat failover with Memcached + Memcached Session Manager + Nginx (load blancer)
+## Tomcat failover with Memcached + Memcached Session Manager + Nginx (load balancer)
 
 - Tested on Ansible 1.9.3 for Debian
-- Expects hosts: Centos 6.x
+- Expects hosts: CentOS 6.x
 
 This playbook deploys a failover solution for clustered Tomcat using Nginx as load balancer and Memcached + MSM as session manager.
 
@@ -11,7 +11,7 @@ This playbook deploys a failover solution for clustered Tomcat using Nginx as lo
 
 For more detail about session management, see https://github.com/magro/memcached-session-manager
 
-This playbook also deploys a demo web app (https://github.com/magro/msm-sample-webapp) to test the session management.
+This playbook also deploys a [demo web app](https://github.com/magro/msm-sample-webapp) to test the session management.
 
 
 ## Initial setup of inventory file
